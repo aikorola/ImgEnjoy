@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_anime"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="动漫" />
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_natural"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="自然" />
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_car"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="汽车" />
+
+            <!--<enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_sky"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="sky" />-->
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_game"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="游戏" />
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_animal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="动物" />
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_movie"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="影视" />
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_simplicity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="简约" />
+
+            <!--<enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_sea"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="sea" />-->
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_girl"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="少女" />
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_hero"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="超级英雄" />
+
+            <!--<enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_clouds"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="clouds" />-->
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_ocean"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="海洋" />
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_like"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="我的喜欢" />
+
+            <enjoy.cqw.com.imgenjoy.custom_view.TitleCardView
+                android:id="@+id/tcl_download"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:title_text="我的下载" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/dp_25"
+            android:background="@drawable/shape_item_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/dp_8"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/dp_4"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingBottom="@dimen/dp_8"
+                android:text="搜索"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/sp_18" />
+
+            <EditText
+                android:id="@+id/search_keyword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_55"
+                android:hint="请输入搜索关键词"
+                android:imeOptions="actionDone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_5">
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dp_45"
+                    android:layout_marginEnd="@dimen/dp_15"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_touch_button_bg"
+                    android:onClick="onCancel"
+                    android:text="取消"
+                    android:textSize="@dimen/sp_16" />
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dp_45"
+                    android:layout_marginStart="@dimen/dp_15"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_touch_button_bg"
+                    android:onClick="onConfirm"
+                    android:text="搜索"
+                    android:textSize="@dimen/sp_16" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/dp_25"
+            android:layout_marginBottom="@dimen/dp_50"
+            android:background="@drawable/shape_float_btn"
+            android:onClick="onSearch" />
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1103726030627322/9500703815">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

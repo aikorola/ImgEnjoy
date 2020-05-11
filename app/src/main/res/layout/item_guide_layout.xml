@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enjoy.cqw.com.imgenjoy.custom_view.TitleCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_guide"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
+    app:cardPreventCornerOverlap="false"
+    app:title_text="anime">
+
+</enjoy.cqw.com.imgenjoy.custom_view.TitleCardView>

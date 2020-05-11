@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>-->
+        <!--Activity切换的动画-->
+        <item name="android:windowAnimationStyle">@style/ActivityTransitionAnim</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ActivityTransitionAnim">
+        <!--用于设置打开新的Activity并进入新的Activity展示的动画-->
+        <item name="android:activityOpenEnterAnimation">@anim/slide_center_out</item>
+
+        <!--用于设置打开新的Activity并销毁之前的Activity展示的动画-->
+        <item name="android:activityOpenExitAnimation">@anim/slide_center_out</item>
+
+        <!--用于设置关闭当前Activity进入上一个Activity展示的动画-->
+        <item name="android:activityCloseEnterAnimation">@anim/slide_around_in</item>
+
+        <!--用于设置关闭当前Activity时展示的动画-->
+        <item name="android:activityCloseExitAnimation">@anim/slide_around_in</item>
+    </style>
+
+    <!-- 自定义Dialog -->
+    <style name="Custom_Progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomDialogStyle" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="windowNoTitle">true</item>
+        <item name="background">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 遮罩层 -->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <style name="CommonTextView">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

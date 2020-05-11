@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:background="@drawable/shape_radius_wall_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lock_screen_wall_paper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_touch_button_bg"
+        android:textColor="@drawable/selector_touch_text_color"
+        android:padding="15dp"
+        android:text="设置锁屏壁纸"
+        android:gravity="center"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#30000000"/>
+
+    <TextView
+        android:id="@+id/desktop_wall_paper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_touch_button_bg"
+        android:textColor="@drawable/selector_touch_text_color"
+        android:padding="15dp"
+        android:text="设置桌面壁纸"
+        android:gravity="center"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#30000000"/>
+
+    <TextView
+        android:id="@+id/all_wall_paper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="同时设定"
+        android:background="@drawable/selector_touch_button_bg"
+        android:textColor="@drawable/selector_touch_text_color"
+        android:textSize="16sp" />
+
+</LinearLayout>

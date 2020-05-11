@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity.image_show_fun.ShowActivity">
+
+    <com.bm.library.PhotoView
+        android:id="@+id/show_info"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        android:src="@mipmap/nature" />
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/back"
+            app:srcCompat="@mipmap/back" />
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:visibility="gone"
+            android:layout_toStartOf="@id/iv_like"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/delete"
+            app:srcCompat="@mipmap/delete" />
+
+        <ImageView
+            android:id="@+id/iv_like"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@id/iv_more"
+            android:contentDescription="@string/like"
+            app:srcCompat="@mipmap/like_normal" />
+
+        <ImageView
+            android:id="@+id/iv_more"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/more"
+            app:srcCompat="@mipmap/more" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/iv_share"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/share"
+            app:srcCompat="@mipmap/share" />
+
+        <ImageView
+            android:id="@+id/iv_download"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/download"
+            app:srcCompat="@mipmap/download" />
+
+        <ImageView
+            android:id="@+id/iv_wallpaper"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/wallpaper"
+            app:srcCompat="@mipmap/wallpaper" />
+    </RelativeLayout>
+
+</RelativeLayout>

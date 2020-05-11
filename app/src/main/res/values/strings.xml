@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">美图刷刷</string>
+    <string name="like">like</string>
+    <string name="more">more</string>
+    <string name="back">back</string>
+    <string name="share">share</string>
+    <string name="download">download</string>
+    <string name="wallpaper">wallpaper</string>
+    <string name="delete">delete</string>
+
+    <string name="key_is_show_admob" translatable="false">is_show_admob</string>
+    <string name="key_admob_sp_name" translatable="false">admob</string>
+</resources>
